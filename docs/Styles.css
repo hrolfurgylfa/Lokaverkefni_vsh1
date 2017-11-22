@@ -5,3 +5,11 @@ h1 {
 	color: white;
 	text-align: center;
 }
+p {
+	color: yellow;
+	margin: 1em;
+}
+.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
