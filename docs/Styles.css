@@ -1,15 +1,9 @@
 body {
-	background-color: darkblue;
+	margin: 0;
 }
-h1 {
-	color: white;
-	text-align: center;
+body section {
+	height: 100vh;
 }
-p {
-	color: yellow;
-	margin: 1em;
-}
-.main {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+.rss {
+	background-image: url("../img/rss.jpg");
 }
