@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	background-color: black;
+	font-family: 'Carme', sans-serif;
 }
 body section {
 	height: 100vh;
@@ -16,13 +17,27 @@ body section p {
 }
 header {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 0.30fr;
+
 	color: white;
 }
-header:a {
+header a {
+	text-decoration: none;
 	color: white;
 }
-/*Baggrunns myndirnar og litur stafanna*/
+nav {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+	text-align: right;
+}
+.header1 {
+	max-width: 60em;
+	margin: auto;
+}
+nav a {
+	border-bottom: white solid 1px;
+}
 .um_siduna {
 	background-image: url("../img/um_okkur.jpg");
 	color: white;
@@ -70,4 +85,20 @@ header:a {
 .dbg {
 	padding: 1em;
 	background-color: rgba(0,0,0,0.5);
+}
+.upp {/*Það þarf örugglega að breyta litnum, hann er ekki fallegur*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	background-color: #2303ff;
+	color: white;
+	height: 2em;
+	width: 2em;
+	text-decoration: none;
+	border-radius: 50%;
+	font-size: 2em;
 }
