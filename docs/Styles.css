@@ -1,12 +1,73 @@
 body {
 	margin: 0;
+	background-color: black;
 }
 body section {
 	height: 100vh;
 }
+body section h1 {
+	margin-top: 0;
+	padding-top: 1em;
+	text-align: center;
+	font-size: 2em;
+}
+body section p {
+	font-size: 1.5em;
+}
+header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	color: white;
+}
+header:a {
+	color: white;
+}
+/*Baggrunns myndirnar og litur stafanna*/
+.um_siduna {
+	background-image: url("../img/um_okkur.jpg");
+	color: white;
+}
 .rss {
 	background-image: url("../img/rss.jpg");
+	color: white;
 }
 .ghost_recon_wildlands {
-	background-image: 
+	background-image: url("../img/Ghost_recon_wildlands.jpg")
+}
+.Overwatch {
+	background-image: url("../img/Overwatch.jpg")
+}
+.Titanfall_2 {
+	height: 110vh;
+	background-image: url("../img/Titanfall_2.jpg");
+}
+.um_siduna_texti,
+.rss_texti,
+.ghost_recon_wildlands_texti,
+.Overwatch_texti,
+.Titanfall_2_texti {
+	max-width: 60em;
+}
+.um_siduna_texti,
+.Titanfall_2_texti {
+	margin-left: 1em;
+}
+.ghost_recon_wildlands_texti,
+.Overwatch_texti,
+.rss_texti {
+	margin: auto;
+}
+/*
+.rss_texti {
+	margin-left: auto;
+	margin-right: 0;
+}
+*/
+.lbg {
+	padding: 1em;
+	background-color: rgba(255,255,255,0.5);
+}
+.dbg {
+	padding: 1em;
+	background-color: rgba(0,0,0,0.5);
 }
