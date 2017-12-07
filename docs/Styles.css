@@ -94,7 +94,7 @@ nav a {
 	position: fixed;
 	bottom: 1em;
 	right: 1em;
-	background-color: purple;
+	background-color: rgba(113, 113, 113, 0.7);
 	color: white;
 	height: 2em;
 	width: 2em;
