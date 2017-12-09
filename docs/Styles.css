@@ -8,7 +8,7 @@ body section {
 }
 body section h1 {
 	margin-top: 0;
-	padding-top: 1em;
+	padding-top: 0em;
 	text-align: center;
 	font-size: 2em;
 }
@@ -72,12 +72,6 @@ nav a {
 .rss_texti {
 	margin: auto;
 }
-/*
-.rss_texti {
-	margin-left: auto;
-	margin-right: 0;
-}
-*/
 .lbg {
 	padding: 1em;
 	background-color: rgba(255,255,255,0.5);
@@ -86,7 +80,7 @@ nav a {
 	padding: 1em;
 	background-color: rgba(0,0,0,0.5);
 }
-.upp {/*Það þarf örugglega að breyta litnum, hann er ekki fallegur*/
+.upp {
 	display: flex;
 	justify-content: center;
 	align-items: center;
