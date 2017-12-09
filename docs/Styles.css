@@ -11,6 +11,7 @@ body section h1 {
 	padding-top: 0em;
 	text-align: center;
 	font-size: 2em;
+	text-shadow: 4px 2px purple;
 }
 body section p {
 	font-size: 1.5em;
@@ -18,8 +19,10 @@ body section p {
 header {
 	display: grid;
 	grid-template-columns: 1fr 0.30fr;
-
 	color: white;
+}
+header h1 {
+	text-shadow: 15px 30px purple;
 }
 header a {
 	text-decoration: none;
@@ -37,6 +40,10 @@ nav {
 }
 nav a {
 	border-bottom: white solid 1px;
+}
+nav a:hover {
+	text-shadow: 4px 2px purple;
+	padding-right: 1em;
 }
 .um_siduna {
 	background-image: url("../img/um_okkur.jpg");
