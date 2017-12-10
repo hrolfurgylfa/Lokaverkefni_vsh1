@@ -1,3 +1,4 @@
+/*Allt*/
 body {
 	margin: 0;
 	background-color: black;
@@ -13,9 +14,15 @@ body section h1 {
 	font-size: 2em;
 	text-shadow: 4px 2px purple;
 }
+.meira,
 body section p {
 	font-size: 1.5em;
 }
+
+/*-----------------*/
+
+
+/*Header*/
 header {
 	display: grid;
 	grid-template-columns: 1fr 0.30fr;
@@ -45,6 +52,12 @@ nav a:hover {
 	text-shadow: 4px 2px purple;
 	padding-right: 1em;
 }
+
+
+/*-----------------*/
+
+
+
 .um_siduna {
 	background-image: url("../img/um_okkur.jpg");
 	color: white;
@@ -102,4 +115,16 @@ nav a:hover {
 	text-decoration: none;
 	border-radius: 50%;
 	font-size: 2em;
+}
+.meira {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.meira dt{
+	color: orange;
+	text-shadow: 2px 2px purple;
+}
+.meira p {
+	font-size: 1em;
+	text-align: right;
 }
