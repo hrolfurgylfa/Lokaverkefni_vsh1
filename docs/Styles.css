@@ -59,22 +59,22 @@ nav a:hover {
 
 
 .um_siduna {
-	background-image: url("../img/um_okkur.jpg");
+	background-image: url("img/um_okkur.jpg");
 	color: white;
 }
 .rss {
-	background-image: url("../img/rss.jpg");
+	background-image: url("img/rss.jpg");
 	color: white;
 }
 .ghost_recon_wildlands {
-	background-image: url("../img/Ghost_recon_wildlands.jpg")
+	background-image: url("img/Ghost_recon_wildlands.jpg")
 }
 .Overwatch {
-	background-image: url("../img/Overwatch.jpg")
+	background-image: url("img/Overwatch.jpg")
 }
 .Titanfall_2 {
 	height: 110vh;
-	background-image: url("../img/Titanfall_2.jpg");
+	background-image: url("img/Titanfall_2.jpg");
 }
 .um_siduna_texti,
 .rss_texti,
@@ -127,4 +127,7 @@ nav a:hover {
 .meira p {
 	font-size: 1em;
 	text-align: right;
+}
+.meira_fyrirsogn {
+	margin-bottom: 0;
 }
