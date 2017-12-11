@@ -131,3 +131,7 @@ nav a:hover {
 .meira_fyrirsogn {
 	margin-bottom: 0;
 }
+.ow_meira {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 0.5em;
+}
